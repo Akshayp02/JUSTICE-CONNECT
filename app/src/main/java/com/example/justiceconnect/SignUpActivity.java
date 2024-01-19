@@ -31,21 +31,24 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
 
         mAuth = FirebaseAuth.getInstance();
 
 
         binding.signupBtn.setOnClickListener(new View.OnClickListener() {
-            String email = binding.Email.getText().toString();
-            String password = binding.Password.getText().toString();
-            String confirmPassword = binding.ConfirmPassword.getText().toString();
-            String name = binding.Username.getText().toString();
-
             public void onClick(View v) {
+                // Move these lines inside the onClick method
+                String email = binding.Email.getText().toString();
+                String password = binding.Password.getText().toString();
+                String confirmPassword = binding.ConfirmPassword.getText().toString();
+                String name = binding.Username.getText().toString();
+
                 password = validatePassword(password, confirmPassword);
                 if (password == null) {
                     return;
                 }
+
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(SignUpActivity.this, new OnCompleteListener<AuthResult>() {
                             private static final String TAG = "createUserWithEmail";
@@ -56,7 +59,7 @@ public class SignUpActivity extends AppCompatActivity {
                                     // Sign in success, send to main activity
                                     Log.d(TAG, "createUserWithEmail:success");
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
+                                    Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
                                     startActivity(intent);
                                 } else {
                                     // If sign in fails, display a message to the user.
