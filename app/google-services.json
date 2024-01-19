@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "907963155325",
+    "project_id": "justice-connect-5c856",
+    "storage_bucket": "justice-connect-5c856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907963155325:android:aefb5aefdd371944430214",
+        "android_client_info": {
+          "package_name": "com.example.justiceconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvCryU0RvIBjzjweT_XmZx9PxgKpDZLz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
