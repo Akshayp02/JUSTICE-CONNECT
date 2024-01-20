@@ -2,7 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
 
     <application
         android:allowBackup="true"
@@ -15,13 +23,22 @@
         android:theme="@style/Theme.JUSTICECONNECT"
         tools:targetApi="31">
         <activity
+            android:name=".Emergency"
+            android:exported="false" />
+        <activity
+            android:name=".Ecompliant"
+            android:exported="false" />
+        <activity
+            android:name=".GovScheme"
+            android:exported="false" />
+        <activity
+            android:name=".rulesofnation"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
