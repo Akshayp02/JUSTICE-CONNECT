@@ -6,6 +6,106 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/learnlaw" >
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+       android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:padding="4dp"
+        android:text="         Empowering citizens for\npeace, justice and strong institutions."
+        android:textColor="#4CAF50"
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/emergency"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/btn_base"
+            android:text="Emergency Services"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/rulls"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/btn_base"
+            android:text="Rules of \  National "
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/linearlayout"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/govScheme"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/btn_base"
+            android:text="Government Schemes"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/Ecompliant"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/btn_base"
+            android:text="E-Compliant"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+
+    </LinearLayout>
+
 
 
 
