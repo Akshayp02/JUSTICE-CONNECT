@@ -38,12 +38,6 @@ The report said that of the 5.1 billion people with no meaningful access to just
       <p>An estimated 253 million people live in extreme conditions of injustice and are deprived of any meaningful legal protections: 40 million people are modern-day slaves, 12 million people are stateless, and 200 million live in countries or communities where levels of insecurity are so high that they are unable to seek justice, the team found. </p> 
 
       
-## 🎥 Demo Video
-
-<a href="https://youtu.be/peDNWLrffIQ"><img src="./assets/demo-video-thumbnail.png" /></a>
-
-> Video Link: https://youtu.be/hjggjgj
-
 ### ⭐🚀 New Features
 
 -    Transparent Governance
