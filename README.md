@@ -1,18 +1,14 @@
-# Justice Connect 
-
-<br>
 <div align="center">
-    <div >
-        <img width="200px" src="![Frame 1](https://github.com/srirajamaddirala/JUSTICE-CONNECT/assets/151869666/b45a2fe7-add7-4481-9335-57c536ce9023)
-" alt=" jc logo "/>
+    <div>
+        <img width="200px" src="https://github.com/Akshayp02/JUSTICE-CONNECT/assets/95123298/d7d03cf1-682b-4da6-bf26-954fadd3940f" alt="jc logo" />
     </div>
     <div>
-            <h3><b>JUSTICE CONNECT</b></h3>
-            <p><i>Empowering Citizens for Peace, Justice, and Strong Institutions</i></p>
-    </div>      
+        <h3><b>JUSTICE CONNECT</b></h3>
+        <p><i>Empowering Citizens for Peace, Justice, and Strong Institutions</i></p>
+    </div>
 </div>
-<br>
-<h1 align="center">Justice connect</h1>
+  
+</div>
 
 ![justice connect home screen](assets/headhome.png)
 
