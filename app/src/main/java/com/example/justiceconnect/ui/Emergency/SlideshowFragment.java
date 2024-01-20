@@ -1,4 +1,4 @@
-package com.example.justiceconnect.ui.slideshow;
+package com.example.justiceconnect.ui.Emergency;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,8 +24,28 @@ public class SlideshowFragment extends Fragment {
         binding = FragmentSlideshowBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        binding.fire.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // call here to Firebrigade
+
+            }
+        });
+
+        binding.hospital.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // call here to Ambulance
+            }
+        });
+
+        binding.police.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // call here to Police
+            }
+        });
+
         return root;
     }
 

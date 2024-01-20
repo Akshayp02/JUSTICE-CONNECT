@@ -1,4 +1,4 @@
-package com.example.justiceconnect.ui.slideshow;
+package com.example.justiceconnect.ui.Emergency;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
