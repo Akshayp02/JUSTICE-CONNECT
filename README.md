@@ -14,6 +14,7 @@
 <h1 align="center">Justice connect</h1>
 
 <p align="center"> <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png"  width = "250" /> </p>
+
  <p align="center"> **JusticeConnect: Empowering voices, Fostering justice**  </p>
 
 Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.
