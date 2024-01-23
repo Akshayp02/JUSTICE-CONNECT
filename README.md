@@ -1,17 +1,17 @@
-# Justice Connect 
-
-<br>
 <div align="center">
+
     <div >
         <img width="200px" src="Screenshot 2024-01-20 at 02-05-16 Figma.png" alt=" jc logo "/>
+    <div>
+        <img width="200px" src="https://github.com/Akshayp02/JUSTICE-CONNECT/assets/95123298/d7d03cf1-682b-4da6-bf26-954fadd3940f" alt="jc logo" />
     </div>
     <div>
-            <h3><b>JUSTICE CONNECT</b></h3>
-            <p><i>Empowering Citizens for Peace, Justice, and Strong Institutions</i></p>
-    </div>      
+        <h3><b>JUSTICE CONNECT</b></h3>
+        <p><i>Empowering Citizens for Peace, Justice, and Strong Institutions</i></p>
+    </div>
 </div>
-<br>
-<h1 align="center">Justice connect</h1>
+  
+</div>
 
 <p align="center"> <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png"  width = "250" /> </p>
  <p align="center"> **JusticeConnect: Empowering voices, Fostering justice**  </p>
@@ -36,6 +36,7 @@ The report said that of the 5.1 billion people with no meaningful access to just
       <p>An estimated 253 million people live in extreme conditions of injustice and are deprived of any meaningful legal protections: 40 million people are modern-day slaves, 12 million people are stateless, and 200 million live in countries or communities where levels of insecurity are so high that they are unable to seek justice, the team found. </p> 
 
       
+
 ## 🎥 Demo Video
 
 
@@ -46,6 +47,8 @@ The report said that of the 5.1 billion people with no meaningful access to just
 	 </a> 	
   
  <hr>
+
+=======
 
 ### ⭐🚀 New Features
 
