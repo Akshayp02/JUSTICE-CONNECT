@@ -1,17 +1,17 @@
+# JUSTICE CONNECT
+<br>
 <div align="center">
-
-    <div >
+<div >
         <img width="200px" src="Screenshot 2024-01-20 at 02-05-16 Figma.png" alt=" jc logo "/>
-    <div>
-        <img width="200px" src="https://github.com/Akshayp02/JUSTICE-CONNECT/assets/95123298/d7d03cf1-682b-4da6-bf26-954fadd3940f" alt="jc logo" />
-    </div>
-    <div>
+</div>
+<div>
         <h3><b>JUSTICE CONNECT</b></h3>
         <p><i>Empowering Citizens for Peace, Justice, and Strong Institutions</i></p>
     </div>
 </div>
   
-</div>
+<br>
+<h1 align="center">Justice connect</h1>
 
 <p align="center"> <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png"  width = "250" /> </p>
  <p align="center"> **JusticeConnect: Empowering voices, Fostering justice**  </p>
