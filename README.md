@@ -3,8 +3,7 @@
 <br>
 <div align="center">
     <div >
-        <img width="200px" src="![Frame 1](https://github.com/srirajamaddirala/JUSTICE-CONNECT/assets/151869666/b45a2fe7-add7-4481-9335-57c536ce9023)
-" alt=" jc logo "/>
+        <img width="200px" src="Screenshot 2024-01-20 at 02-05-16 Figma.png" alt=" jc logo "/>
     </div>
     <div>
             <h3><b>JUSTICE CONNECT</b></h3>
@@ -14,9 +13,8 @@
 <br>
 <h1 align="center">Justice connect</h1>
 
-![justice connect home screen](assets/headhome.png)
-
-**JusticeConnect: Empowering Justice, Fostering Peace**
+<p align="center"> <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png"  width = "250" /> </p>
+ <p align="center"> **JusticeConnect: Empowering voices, Fostering justice**  </p>
 
 Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.
 ## Problem Statement
@@ -40,9 +38,14 @@ The report said that of the 5.1 billion people with no meaningful access to just
       
 ## 🎥 Demo Video
 
-<a href="https://youtu.be/peDNWLrffIQ"><img src="./assets/demo-video-thumbnail.png" /></a>
 
-> Video Link: https://youtu.be/hjggjgj
+> Video Link: https://youtu.be/-dRM3-8MQSo
+
+<a href="https://youtu.be/-dRM3-8MQSo ">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="LinkedIn Badge"/>
+	 </a> 	
+  
+ <hr>
 
 ### ⭐🚀 New Features
 
@@ -65,12 +68,15 @@ The report said that of the 5.1 billion people with no meaningful access to just
 -    Self-Protection Tools using Virtual reality (VR) self-defense tutorial
 -    Integration with Healthcare Services using blockchain
 -    Community Support Groups using ai and blockchain
-
-//// animations of app working  ////
+  
 
 ## 🛠️ &nbsp;Key Functionalities
 
 ![Key Functionalities](assets/key-functionalities.jpg)
+
+<p align="center"> <img src="Screenshot 2024-01-20 at 02-14-59 Figma.png" alt="srirajamaddirala"  width = "500" /> </p>
+<p align="center"> click to enlarge </p>
+
 
    ###  1.**`User Registration`**:
   Users create secure accounts, ensuring privacy and confidentiality.
@@ -106,7 +112,7 @@ Customizable privacy settings, allowing users to control the level of anonymity 
   Facilitates communication between users, legal representatives, and authorities, ensuring transparent progress tracking.
 
 
-//// user flow diagram ////
+
 
 JusticeConnect stands as a reliable ally for justice seekers, streamlining the path towards resolution and empowerment.
 
@@ -114,46 +120,98 @@ JusticeConnect stands as a reliable ally for justice seekers, streamlining the p
 
 ### Goal 16: Peace, Justice, and Strong Institutions:
 
-![SDG16](assets/SDG16.png)
 
-  Transparent Governance (Target 16.6): JusticeConnect promotes transparent and inclusive decision-making, contributing to accountable institutions and reducing corruption.
-   Access to Justice (Target 16.3): The app facilitates universal access to justice, ensuring fair treatment for all individuals and supporting the development of effective, accountable, and inclusive institutions.
+<kbd>
+<img src="sdg 16.png" height="200" />
+</kbd>
+<kbd>
+<img src="sdg 16.6 2.png" height="200" />
+</kbd>
+<kbd>
+<img src="sdg 16.3.png" height="200" />
+</kbd>
+
+  Transparent Governance (Target **`16.6`**): JusticeConnect promotes transparent and inclusive decision-making, contributing to accountable institutions and reducing corruption.
+  
+   Access to Justice (Target **`16.3`**): The app facilitates universal access to justice, ensuring fair treatment for all individuals and supporting the development of effective, accountable, and inclusive institutions.
 
  ### Goal 5: Gender Equality:
+ <kbd>
+<img src="sdg 5.png" height="200" />
+</kbd>
+ <kbd>
+<img src="sdg 5.1 final.png" height="200" />
+</kbd>
+ <kbd>
+<img src="sdg 5.3 final.png" height="200" />
+</kbd>
+ <kbd>
+<img src="sdg 5.5 final.png" height="200" />
+</kbd>
+ <kbd>
+<img src="sdg 5.c final.png" height="200" />
+</kbd>
+
  
-  ![SDG16](assets/SDG16.png)
   
    Women's Safety and Empowerment: JusticeConnect, by ensuring immediate response mechanisms and advocating for women's safety, contributes to the broader goal of achieving gender equality and empowering all women and girls.
 
+End all forms of discrimination and violence against women and girls (**`Target 5.1`**): JusticeConnect supports users in reporting and addressing various forms of discrimination and violence, promoting a safer environment for women and girls.
+
+Eliminate harmful practices, such as child marriage and female genital mutilation (**`Target 5.3`**):Through community support and educational resources, JusticeConnect can raise awareness and contribute to eliminating harmful practices.
+
+Ensure equal participation and opportunities for leadership at all levels of decision-making (**`Target 5.5`**):JusticeConnect's features, including reporting injustice and community support, can empower women to advocate for their rights and equal participation in decision-making processes.
+ By providing legal resources and support, JusticeConnect helps women access information and opportunities for active participation and leadership.
+
+Adopt and strengthen sound policies and enforceable legislation for the promotion of gender equality and the empowerment of all women and girls (**`Target 5.c`**): JusticeConnect promotes awareness of laws and legal rights, contributing to the adoption and strengthening of policies that support gender equality and empowerment.
+   
+
  ###  Goal 10: Reduced Inequalities:
  
-![SDG16](assets/SDG16.png)
+<kbd>
+<img src="sdg 10 final.png" height="200" />
+</kbd>
+<kbd>
+<img src="sdg 10.2.png" height="200" />
+</kbd>
 
-  Prevention of Injustice (Target 10.2): By actively working to reduce instances of injustice and promoting legal awareness, JusticeConnect contributes to reducing inequalities within societies.
+  Prevention of Injustice (**`Target 10.2`**): By actively working to reduce instances of injustice and promoting legal awareness, JusticeConnect contributes to reducing inequalities within societies.
   ###  Goal 3: Good Health and Well-being:
   
-![SDG16](assets/SDG16.png)
+<kbd>
+<img src="sdg 3.png" height="200" />
+</kbd>
+<kbd>
+<img src="sdg 3.5.png" height="200" />
+</kbd>
+<kbd>
+<img src="sdg 3.8.png" height="200" />
+</kbd>
 
-  Mental Health Impact: Through its mission to reduce injustice and associated mental health issues, JusticeConnect indirectly contributes to promoting good mental health and well-being.         
+  Mental Health Impact: Through its mission to reduce injustice and associated mental health issues, JusticeConnect indirectly contributes to promoting good mental health and well-being.
+  
+  Strengthen the prevention and treatment of substance abuse (**`Target 3.5`**): The app's support mechanisms, including access to counseling and crisis helplines, align with efforts to address substance abuse and addiction.Achieve universal health coverage. 
+  
+  (**`Target 3.8`**):While not directly related to healthcare coverage, the app's integration with healthcare services facilitates connections between users and healthcare providers, contributing to broader health coverage efforts.       
 
 ## 👨🏻‍💻 &nbsp;Technology Stack
 
 <div align="center">
 
 <kbd>
-<img src="./assets/icons/Firebase.png" height="60" />
+<img src="firebase final.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/GCP.png" height="60" />
+<img src="google cloud final.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/Maps.png" height="60" />
+<img src="google maps final.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/ESP32.png" height="60" />
+<img src="android studio final.png" height="60" />
 </kbd>
 <kbd>
-<img src="./assets/icons/ESP32.png" height="60" />
+<img src="java final.png" height="60" />
 </kbd>
 </div>
 <div align="center">
@@ -163,8 +221,10 @@ JusticeConnect stands as a reliable ally for justice seekers, streamlining the p
 
 ## 🏃‍♀️ Getting Started
 
-<hr>
-Download justice connect directly from our github repository. After downloading the app, you can sign up for an account using your Google account or use Guest Mode to explore the app.
+
+Download justice connect directly from our github repository. After downloading the app, you can sign up for an account using your Google account or use Guest Mode to explore the app. 
+
+////animations////
 
 
 ### 📝 Prerequisites
@@ -172,8 +232,7 @@ Download justice connect directly from our github repository. After downloading 
 Before you start, make sure you have installed the following on your system:
 
 - firebase
-- VS Code
-- android studio for VS Code
+- android studio 
 - Gmap for location access
 
 
