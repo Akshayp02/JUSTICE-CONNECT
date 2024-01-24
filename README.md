@@ -1,8 +1,8 @@
-# JUSTICE CONNECT
-<br>
+
 <div align="center">
 <div >
-        <img width="200px" src="Screenshot 2024-01-20 at 02-05-16 Figma.png" alt=" jc logo "/>
+        <img width="350px" src="Screenshot 2024-01-20 at 02-05-16 Figma.png" alt=" jc logo "/>
+
 </div>
 <div>
         <h3><b>JUSTICE CONNECT</b></h3>
@@ -13,41 +13,51 @@
 <br>
 <h1 align="center">Justice connect</h1>
 
-<p align="center"> <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png"  width = "250" /> </p>
+<p align="center">
+    <img src="Screenshot 2024-01-20 at 18-34-06 Figma.png" width="188" style="margin-right: 10px;">
+    <img src="https://github.com/srirajamaddirala/JUSTICE-CONNECT/assets/95123298/8d386c5f-0871-4c09-aa76-96d12c0c3857" width="180" style="margin-right: 10px;">
+    <img src="https://github.com/srirajamaddirala/JUSTICE-CONNECT/assets/95123298/a6a7a6a4-c299-4ca7-981e-b2664db98175" width="180">
+</p>
 
- <p align="center"> **JusticeConnect: Empowering voices, Fostering justice**  </p>
+ <p align="center"> <strong> JusticeConnect: Empowering voices, Fostering justice </strong>  </p>
 
-Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.
+ <p align="center">
+	 <span style="color:#00FF00";><strong>Our mission is clear: to diminish instances of injustice, mitigate associated mental health challenges, and ensure equitable access to justice for all.
+	 </span></p>
+
+ 
 ## Problem Statement
 
 <br/>
 <blockquote align='center'>
-<h3>“An estimated 5 billion people have unmet justice needs globally, including people who cannot obtain justice for everyday problems”
-
-\- The world justice project
-
+<h3> “An estimated 5 billion people have unmet justice needs globally, including people who cannot obtain justice for everyday problems”
 </h3>
 </blockquote>
 <br/>
 
 The report said that of the 5.1 billion people with no meaningful access to justice, an estimated 1.5 billion – one in five people worldwide – have been left with justice problems they cannot solve, whether that involves a land dispute, consumer debt or being the vicim of crime.
 
- <img src="https://worldjusticeproject.org/sites/default/files/inline-images/chart%201.2.png" alt="Image 1" style="width: 50%;">
-      <p> </p>
+  <p align="center">
+ <img src="https://worldjusticeproject.org/sites/default/files/inline-images/chart%201.2.png" alt="Image 1" style="width: 600;">
+     </p>
+     
       <p>An estimated 253 million people live in extreme conditions of injustice and are deprived of any meaningful legal protections: 40 million people are modern-day slaves, 12 million people are stateless, and 200 million live in countries or communities where levels of insecurity are so high that they are unable to seek justice, the team found. </p> 
 
       
 
 ## 🎥 Demo Video
 
+<p align="center">  
 
-> Video Link: https://youtu.be/-dRM3-8MQSo
+ 
 
 <a href="https://youtu.be/-dRM3-8MQSo ">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="LinkedIn Badge"/>
 	 </a> 	
   
  <hr>
+
+</p>
 
 
 ### ⭐🚀 New Features
@@ -75,10 +85,9 @@ The report said that of the 5.1 billion people with no meaningful access to just
 
 ## 🛠️ &nbsp;Key Functionalities
 
-![Key Functionalities](assets/key-functionalities.jpg)
 
-<p align="center"> <img src="Screenshot 2024-01-20 at 02-14-59 Figma.png" alt="srirajamaddirala"  width = "500" /> </p>
-<p align="center"> click to enlarge </p>
+<p align="center"> <img src="Screenshot 2024-01-20 at 02-14-59 Figma.png" alt="srirajamaddirala"  width = "700" /> </p>
+<!-- <p align="center"> click to enlarge </p> -->
 
 
    ###  1.**`User Registration`**:
@@ -227,7 +236,7 @@ Adopt and strengthen sound policies and enforceable legislation for the promotio
 
 Download justice connect directly from our github repository. After downloading the app, you can sign up for an account using your Google account or use Guest Mode to explore the app. 
 
-////animations////
+
 
 
 ### 📝 Prerequisites
@@ -237,7 +246,9 @@ Before you start, make sure you have installed the following on your system:
 - firebase
 - android studio 
 - Gmap for location access
+<br>
+<div>
 
 
-
-
+Contact: [akshaypeherkar2002@gmail.com](mailto:akshaypeherkar2002@gmail.com)
+</div>
