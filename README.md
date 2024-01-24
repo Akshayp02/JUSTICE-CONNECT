@@ -56,11 +56,14 @@ The report said that of the 5.1 billion people with no meaningful access to just
 -    Integration with Healthcare Services using blockchain
 -    Community Support Groups using ai and blockchain
 
-//// animations of app working  ////
+
 
 ## 🛠️ &nbsp;Key Functionalities
 
-![Key Functionalities](assets/key-functionalities.jpg)
+<div align="center">
+        <img width="600px" src="https://github.com/Akshayp02/JUSTICE-CONNECT/assets/95123298/c86cd88e-139e-4c3d-a4d8-98ea8f5900a4" alt="jc logo"  />
+    </div>
+
 
    ###  1.**`User Registration`**:
   Users create secure accounts, ensuring privacy and confidentiality.
@@ -96,10 +99,9 @@ Customizable privacy settings, allowing users to control the level of anonymity 
   Facilitates communication between users, legal representatives, and authorities, ensuring transparent progress tracking.
 
 
-//// user flow diagram ////
 
 JusticeConnect stands as a reliable ally for justice seekers, streamlining the path towards resolution and empowerment.
-
+   </div>
 ## 🎯 &nbsp;UN's Sustainable Development Goals & Targets
 
 ### Goal 16: Peace, Justice, and Strong Institutions:
