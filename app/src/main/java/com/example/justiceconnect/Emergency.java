@@ -24,7 +24,6 @@ public class Emergency extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityEmergencyBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        getSupportActionBar().hide();
 
         binding.fire.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -35,4 +35,5 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:text="justconnect@gmail.com" />
+
 </LinearLayout>

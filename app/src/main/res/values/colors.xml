@@ -9,6 +9,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blurecard">#9AE6E1E1</color>
+    <color name="bottom_nav_bg_color">#7F8EB7</color>
+    <color name="bottom_nav_icon_color">#F76734</color>
+    <color name="MAIN_BG_COLOR">#FFFFFF</color>
+    <color name="status_bar_color">#EDF76734</color>
 
 
 </resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/homeicon"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/complients"
+        android:title="Complients"
+        android:icon="@drawable/complient_icon"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/profile"
+        android:title="Account"
+        android:icon="@drawable/account_icon"
+        android:checkable="true"
+        />
+
+
+
+</menu>
