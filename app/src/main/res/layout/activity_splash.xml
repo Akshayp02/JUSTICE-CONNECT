@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginEnd="1dp"
-
+        android:background="@drawable/side_splash_act"
         android:orientation="vertical">
 
         <LinearLayout

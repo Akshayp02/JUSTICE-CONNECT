@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,8 +9,33 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.JUSTICECONNECT.AppBarOverlay"/>
+        android:theme="@style/Theme.JUSTICECONNECT.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+               android:background="@color/bottom_nav_icon_color"
+            app:popupTheme="@style/Theme.JUSTICECONNECT.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnView"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/side_bottom_nav"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav"
+        app:labelVisibilityMode="auto"
+        app:itemIconTint="@color/bottom_nav_icon_color"
+        app:itemTextColor="@color/bottom_nav_icon_color"
+        app:itemIconSize="32dp"
+        app:itemPaddingBottom="5dp"
+        />
+
+
+</RelativeLayout>

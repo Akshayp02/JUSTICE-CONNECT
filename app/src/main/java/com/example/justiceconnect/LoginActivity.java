@@ -29,9 +29,6 @@ public class LoginActivity extends AppCompatActivity {
         binding = ActivityLogin2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        // to set no action bar
-        getSupportActionBar().hide();
-
         mAuth = FirebaseAuth.getInstance();
 
         binding.LOGINBtn.setOnClickListener(new View.OnClickListener() {

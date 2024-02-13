@@ -31,7 +31,7 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        getSupportActionBar().hide();
+
 
         mAuth = FirebaseAuth.getInstance();
 
