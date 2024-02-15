@@ -22,12 +22,12 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@drawable/side_main_act"
+        android:background="@color/white"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer"
         app:itemBackground="@color/white"
-        app:itemIconTint="@color/bottom_nav_icon_color"
-        app:itemTextColor="@color/bottom_nav_icon_color"
+        app:itemIconTint="@color/bottom_nav_bg_color"
+        app:itemTextColor="@color/bottom_nav_bg_color"
         app:itemTextAppearanceActiveBoldEnabled="true"
         />
 
