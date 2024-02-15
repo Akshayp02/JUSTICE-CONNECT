@@ -60,7 +60,7 @@ public class Emergency extends AppCompatActivity {
             }
         });
 
-        binding.hospital.setOnClickListener(new View.OnClickListener() {
+        binding.msg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (ContextCompat.checkSelfPermission(

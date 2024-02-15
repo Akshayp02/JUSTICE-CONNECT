@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/colorbluewblure"
+    android:background="@drawable/side_main_act"
     tools:context=".Emergency">
 
     <TextView
@@ -12,9 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
         android:layout_marginTop="20dp"
-        android:text="Emergency Services"
+        android:text="What Happened?"
         android:textColor="#F44336"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -23,64 +23,297 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
-        android:text="Select the service you need......!"
-        android:textColor="#1C1A1A"
+        android:layout_marginTop="10dp"
+        android:text="Press the button to call for help"
+        android:textColor="#B9170242"
         android:textSize="20sp"
-        android:layout_above="@id/linearlayout"
-        android:layout_marginBottom="25dp"
-        android:textStyle="bold" />
-    <LinearLayout
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
-        android:layout_margin="10dp"
-        android:orientation="horizontal"
-        android:padding="4dp">
+        android:textStyle="normal" />
 
-        <de.hdodenhof.circleimageview.CircleImageView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="-5dp">
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/fire"
             android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
-            android:layout_marginStart="30dp"
-            android:background="@drawable/btn_base"
-            android:padding="10dp"
-            android:src="@drawable/baseline_local_fire_department_24" />
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginBottom="16dp"
+            android:padding="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/GasDepartment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/police"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/baseline_local_fire_department_24"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:text="Fire Department"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
             android:id="@+id/police"
             android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
-            android:layout_marginStart="30dp"
-            android:background="@drawable/btn_base"
-            android:padding="10dp"
-            android:src="@drawable/local_police" />
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="16dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/msg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/fire"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/local_police"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:text="Police"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
 
 
-    </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/hospital"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_below="@+id/linearlayout"
-        android:src="@drawable/baseline_local_hospital_24"
-        android:layout_gravity="center"
-        android:layout_centerInParent="true"
-        android:padding="10dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="30dp"
-        android:background="@drawable/btn_base"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/msg"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="16dp"
+            android:padding="5dp"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="@color/white"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/SOS_sms"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/GasDepartment"
+            app:layout_constraintTop_toBottomOf="@+id/police">
 
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hospital"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/baseline_local_hospital_24"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:text="Ambulance"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/GasDepartment"
+            android:layout_width="153dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginBottom="16dp"
+            android:padding="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/sos_Call"
+            app:layout_constraintEnd_toStartOf="@+id/msg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fire">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/local_police"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:padding="4dp"
+                android:text="Gas Department"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SOS_sms"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="70dp"
+            android:padding="5dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/sos_Call"
+            app:layout_constraintTop_toBottomOf="@+id/msg"
+            app:layout_constraintVertical_bias="0.5">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/baseline_sos_24"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:padding="1dp"
+                android:text="SMS massage to emergency contacts"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/sos_Call"
+            android:layout_width="150dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/SOS_sms"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/GasDepartment">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_base"
+                android:foregroundGravity="center"
+                android:padding="10dp"
+                android:src="@drawable/call"
+                app:civ_border_color="#FF000000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="2dp"
+                android:padding="1dp"
+                android:text="Call to emergency contacts"
+                android:textAlignment="center"
+                android:textColor="#B9170242"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </RelativeLayout>

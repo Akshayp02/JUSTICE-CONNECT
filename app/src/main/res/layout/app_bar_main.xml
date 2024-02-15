@@ -15,7 +15,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-               android:background="@color/bottom_nav_icon_color"
+               android:background="@color/bottom_nav_bg_color"
             app:popupTheme="@style/Theme.JUSTICECONNECT.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -27,7 +27,7 @@
         android:id="@+id/bnView"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@drawable/side_bottom_nav"
+        android:background="@color/bottom_nav_bg_color"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_nav"
         app:labelVisibilityMode="auto"

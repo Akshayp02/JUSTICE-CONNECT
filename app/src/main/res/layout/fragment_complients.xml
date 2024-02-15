@@ -1,15 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.ComplientsFragment">
 
-    <TextView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:text="Complient Fragment"
-        android:textSize="52sp" />
+        android:layout_margin="2dp"
+        android:backgroundTint="@color/card_Bg_color"
+        android:padding="4dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="1dp">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:text="Post Your Complaints Here!"
+            android:textColor="@color/bottom_nav_bg_color"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/card_Bg_color"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <EditText
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Title"
+                android:inputType="textMultiLine"
+                android:background="@color/card_Bg_color"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:textColorHint="@color/text_color"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/complient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/card_Bg_color"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:allowUndo="true"
+                android:textColorHint="@color/text_color"
+                android:hint="Enter Your Complaints Here"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/chooseLocation"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/bottom_nav_bg_color"
+                android:text="Choose Location"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/crimeIMG"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:src="@drawable/image"
+                android:textSize="20sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/uploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/bottom_nav_bg_color"
+                android:text="Upload Image"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:gravity="start"
+                android:text="Share your Complaint on Social media!"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="18dp"
+                android:background="@color/card_Bg_color"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/facebook" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/instagram"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/instagram" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/twitter" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/whatsapp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
