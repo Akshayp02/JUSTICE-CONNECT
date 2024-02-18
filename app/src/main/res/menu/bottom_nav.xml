@@ -8,7 +8,7 @@
         />
 
     <item android:id="@+id/complients"
-        android:title="Complients"
+        android:title="Complaints"
         android:icon="@drawable/complient_icon"
         android:checkable="true"
         />
