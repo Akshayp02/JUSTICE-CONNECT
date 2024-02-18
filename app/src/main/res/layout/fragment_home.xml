@@ -53,7 +53,7 @@
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:background="@drawable/btn_base"
-            android:text="Rules of \  National "
+            android:text="Cybercrime complaint "
             android:gravity="center"
             android:textSize="22sp"
             android:layout_marginStart="20dp"

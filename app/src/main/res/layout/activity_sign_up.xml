@@ -44,7 +44,7 @@
                     android:id="@+id/Username"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/btn_base"
+                    android:background="@color/bottom_nav_bg_color"
                     android:hint="Username"
                     android:inputType="text"
                     android:textSize="15sp"
@@ -62,7 +62,7 @@
                     android:id="@+id/Email"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/btn_base"
+                    android:background="@color/bottom_nav_bg_color"
                     android:hint="Email"
                     android:inputType="text"
                     android:textColor="@color/white" />
@@ -79,7 +79,7 @@
                     android:id="@+id/Password"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/btn_base"
+                    android:background="@color/bottom_nav_bg_color"
                     android:hint="Password"
                     android:inputType="text"
                     android:textColor="@color/white" />
@@ -96,8 +96,7 @@
                     android:id="@+id/Confirm_Password"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/btn_base"
-                    android:hint="Confirm Password"
+                    android:background="@color/bottom_nav_bg_color"                    android:hint="Confirm Password"
                     android:inputType="text"
                     android:textSize="15sp"
                     android:textColor="@color/white" />
