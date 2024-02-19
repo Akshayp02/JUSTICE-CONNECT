@@ -102,7 +102,7 @@ public class ComplientsFragment extends Fragment {
                     InputStream inputStream = requireActivity().getContentResolver().openInputStream(imageUri);
                     Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
                     binding.crimeIMG.setImageBitmap(bitmap);
-                    bitmapUri = imageUri; // save the URI for later use
+                    bitmapUri = imageUri;
                 } catch (FileNotFoundException e) {
                     e.printStackTrace();
                 }
@@ -110,7 +110,6 @@ public class ComplientsFragment extends Fragment {
         }
     }
 
-    // to send on the instagram post by taking the image from the image view and text from both 2 text view
     public  void sendPost(String setPackage) {
         if (bitmapUri != null) {
             Intent intent = new Intent(Intent.ACTION_SEND);
