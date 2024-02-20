@@ -55,12 +55,20 @@ public class HomeFragment extends Fragment {
         });
 
 
+        binding.floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Emergency.class);
+                startActivity(intent);
+            }
+        });
+
+
         binding.govScheme
                 .setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View v) {
-//                                            Intent intent = new Intent(getActivity(), GovScheme.class);
-//                                            startActivity(intent);
+
                                         }
                                     }
                 );
@@ -69,8 +77,13 @@ public class HomeFragment extends Fragment {
                 .setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View v) {
-//                                            Intent intent = new Intent(getActivity(), com.example.justiceconnect.Ecompliant.class);
-//                                            startActivity(intent);
+                                            ComplientsFragment fragment = new ComplientsFragment();
+                                            FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+                                            FragmentTransaction transaction = fragmentManager.beginTransaction();
+                                            transaction.replace(R.id.nav_host_fragment_content_main, fragment);
+                                            transaction.addToBackStack(null);
+                                            transaction.commit();
+
                                         }
                                     }
                 );
