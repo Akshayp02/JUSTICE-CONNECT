@@ -13,99 +13,236 @@
         android:layout_marginTop="0dp"
         android:background="@drawable/learnlaw" >
     </RelativeLayout>
+
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/taglin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/relativeLayout"
-       android:layout_centerInParent="true"
+        android:layout_centerInParent="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="0dp"
         android:padding="4dp"
-        android:text="         Empowering citizens for\npeace, justice and strong institutions."
+        android:text="         🎊 Empowering citizens for\npeace, justice and strong institutions.❤️"
         android:textColor="#4CAF50"
         android:textSize="18sp" />
 
-
-
-    <LinearLayout
-        android:id="@+id/linearlayout"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_centerInParent="true"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/taglin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/emergency"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/btn_base"
-            android:text="Emergency Services"
-            android:layout_marginStart="10dp"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="-5dp">
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/emergency"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toTopOf="@+id/govScheme"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/cyberCrime"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/cyberCrime"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/btn_base"
-            android:text="Cybercrime complaint "
-            android:gravity="center"
-            android:textSize="22sp"
-            android:layout_marginStart="20dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_base"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/emergency"
+                    app:civ_border_color="#FF000000" />
 
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_below="@id/linearlayout"
-        android:layout_centerInParent="true"
-        android:padding="8dp"
-        android:orientation="horizontal">
-
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/govScheme"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/btn_base"
-            android:text="Government Schemes"
-            android:layout_gravity="center_vertical"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:layout_marginStart="0dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
-
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/Ecompliant"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:background="@drawable/btn_base"
-            android:text="E-Compliant"
-            android:layout_gravity="center_vertical"
-            android:gravity="center"
-            android:textSize="22sp"
-            android:layout_marginStart="20dp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:padding="4dp"
+                    android:text="Emergency Call"
+                    android:textAlignment="center"
+                    android:textColor="#B9170242"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
 
 
+            </androidx.cardview.widget.CardView>
 
-    </LinearLayout>
 
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cyberCrime"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toTopOf="@+id/Ecompliant"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/emergency"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_base"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/cybercrime"
+                    app:civ_border_color="#FF000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:padding="4dp"
+                    android:text="Cyber Crime"
+                    android:textAlignment="center"
+                    android:textColor="#B9170242"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Ecompliant"
+                android:layout_width="150dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/govScheme"
+                app:layout_constraintTop_toBottomOf="@+id/cyberCrime">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/hospital"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_base"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/complient_icon"
+                    app:civ_border_color="#FF000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:padding="4dp"
+                    android:text="E-Complaint"
+                    android:textAlignment="center"
+                    android:textColor="#B9170242"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/govScheme"
+                android:layout_width="153dp"
+                android:layout_height="166dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/white"
+                android:padding="5dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/Ecompliant"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emergency">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_base"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:src="@drawable/cityhall"
+                    app:civ_border_color="#FF000000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="10dp"
+                    android:padding="4dp"
+                    android:text="GOV Schime"
+                    android:textAlignment="center"
+                    android:textColor="#B9170242"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="16dp"
+                app:tint="@android:color/white"
+                android:layout_marginBottom="4dp"
+                app:fabSize="auto"
+                android:backgroundTint="@color/bottom_nav_bg_color"
+                android:clickable="true"
+                android:src="@drawable/emergency"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
 
 
 
