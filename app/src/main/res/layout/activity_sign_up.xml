@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signup"
+    android:background="@drawable/side_splash_act"
     tools:context=".SignUpActivity">
 
     <androidx.cardview.widget.CardView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_margin="10dp"
-        android:backgroundTint="#9AE6E1E1"
+        android:backgroundTint="#FFFFFF"
         app:cardCornerRadius="15dp"
         app:cardElevation="0dp"
         android:padding="4dp">
@@ -23,7 +23,8 @@
             android:padding="4dp"
             android:text="Create an Account"
             android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
+            android:textColor="@color/MAIN_BG_COLOR"
+            android:background="@drawable/headline_box"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -38,17 +39,23 @@
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                app:boxBackgroundMode="none"
                 android:layout_marginTop="55dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/Username"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="14dp"
+                    android:background="@drawable/inputtext"
+                    android:focusedSearchResultHighlightColor="@color/bottom_nav_bg_color"
                     android:hint="Username"
+                    android:textColorHint="@color/black"
                     android:inputType="text"
-                    android:textSize="15sp"
-                    android:textColor="@color/white" />
+
+                    android:textColor="@color/text_color" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,16 +63,22 @@
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                app:boxBackgroundMode="none"
+                app:shapeAppearance="@color/bottom_nav_bg_color"
+                app:shapeAppearanceOverlay="@color/bottom_nav_bg_color"
                 android:layout_marginTop="15dp">
 
                 <EditText
                     android:id="@+id/Email"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:textSize="14dp"
+                    android:background="@drawable/inputtext"
+                    android:textColorHint="@color/black"
                     android:hint="Email"
                     android:inputType="text"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/text_color" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -73,16 +86,20 @@
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                app:boxBackgroundMode="none"
                 android:layout_marginTop="15dp">
 
                 <EditText
                     android:id="@+id/Password"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:textSize="14dp"
+                    android:background="@drawable/inputtext"
+                    android:textColorHint="@color/black"
                     android:hint="Password"
                     android:inputType="text"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/text_color" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -90,16 +107,20 @@
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                app:boxBackgroundMode="none"
                 android:layout_marginTop="15dp">
 
                 <EditText
                     android:id="@+id/Confirm_Password"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"                    android:hint="Confirm Password"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/inputtext"
+                    android:hint="Confirm Password"
                     android:inputType="text"
+                    android:textColorHint="@color/black"
                     android:textSize="15sp"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/text_color"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -111,10 +132,12 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="@color/purple_200"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="@color/bottom_nav_bg_color"
                 android:text="Register"
                 android:textSize="14sp"
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
             <LinearLayout
                 android:layout_width="wrap_content"

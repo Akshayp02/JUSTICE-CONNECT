@@ -213,7 +213,7 @@
                     android:layout_gravity="bottom"
                     android:layout_marginBottom="10dp"
                     android:padding="4dp"
-                    android:text="GOV Schime"
+                    android:text="GOV Scheme"
                     android:textAlignment="center"
                     android:textColor="#B9170242"
                     android:textSize="18sp"

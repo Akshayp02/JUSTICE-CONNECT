@@ -15,13 +15,13 @@
             android:title="E-Compliant" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/emergency"
             android:title="Emergency" />
 
         <item
             android:id="@+id/Rules_oF_National"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Rules of National" />
+            android:icon="@drawable/rulls"
+            android:title="National Rules " />
     </group>
 
 </menu>

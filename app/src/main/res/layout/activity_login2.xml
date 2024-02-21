@@ -4,51 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/signup"
+    android:background="@drawable/side_splash_act"
     tools:context=".LoginActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_margin="10dp"
-        android:backgroundTint="#9AE6E1E1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:padding="4dp"
         app:cardCornerRadius="15dp"
-        app:cardElevation="0dp"
-        android:padding="4dp">
+        app:cardElevation="0dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/headline_box"
             android:padding="4dp"
             android:text="Login to your Account"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="2dp"
             android:layout_margin="10dp"
             android:layout_marginTop="20dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="2dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                app:boxBackgroundMode="none"
                 android:layout_marginTop="45dp">
 
                 <EditText
                     android:id="@+id/Email"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:textColorHint="@color/black"
+                    android:background="@drawable/inputtext"
                     android:hint="Email"
+                    android:textSize="14dp"
                     android:inputType="text"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/text_color" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,15 +64,21 @@
                 android:layout_width="350dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:boxBackgroundMode="none"
                 android:layout_marginTop="15dp">
 
                 <EditText
                     android:id="@+id/Password"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:background="@color/bottom_nav_bg_color"                    android:hint="Password"
+                    android:layout_height="48dp"
+                    android:layout_margin="8dp"
+                    android:textSize="14dp"
+                    android:background="@drawable/inputtext"
+                    android:hint="Password"
                     android:inputType="text"
-                    android:textColor="@color/white" />
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/text_color" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,11 +89,13 @@
                 android:layout_width="351dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginTop="20dp"
-                android:backgroundTint="@color/purple_200"
+                android:backgroundTint="@color/bottom_nav_bg_color"
                 android:text="Login"
-                android:textSize="14sp"
-                android:textColor="@color/black" />
+                android:textColor="@color/white"
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -100,25 +116,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="3dp"
                     android:text="Signup here"
-                    android:textStyle="bold"
                     android:textColor="#12714A"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
 
-
-
-
         </LinearLayout>
-
-
-
-
-
-
-
-
 
 
     </androidx.cardview.widget.CardView>
